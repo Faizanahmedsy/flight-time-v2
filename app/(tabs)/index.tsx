@@ -36,6 +36,13 @@ export default function TabOneScreen() {
 
   return (
     <View style={styles.container}>
+      <Text
+        style={{
+          margin: 10,
+        }}
+      >
+        Enter date and time YYYY-MM-DD HH:mm
+      </Text>
       <TextInput
         style={styles.input}
         placeholder="Enter date and time YYYY-MM-DD HH:mm"
@@ -90,5 +97,6 @@ const styles = StyleSheet.create({
     marginTop: 20,
     fontSize: 18,
     fontWeight: "bold",
+    // color: "white",
   },
 });
